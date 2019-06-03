@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FINDme</string>
+    <string name="title2"><![CDATA[Save, Share & track Locations Easily]]></string>
+    <string name="signup">Sign Up With</string>
+    <string name="Add">Add</string>
+    <string name="titletext">Title</string>
+    <string name="Address">16A. Sidharth Tower, Jk road, Delhi, India</string>
+    <string name="save">SAVE</string>
+    <string name="dolog">Do you want to logout?</string>
+</resources>

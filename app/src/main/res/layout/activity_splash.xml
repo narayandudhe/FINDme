@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ic"
+            android:layout_width="152dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:text="Welocme To FINDme" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_weight="2"
+            android:textColor="@color/colorWhite"
+            android:text="@string/title2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/enter"
+            android:textStyle="bold"
+            android:textColor="@color/colorYellow"
+            android:text="Enter"
+            android:textSize="50dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
